@@ -3,10 +3,8 @@
 import React, { Component } from 'react';
 import { TouchableHighlight } from 'react-native';
 
-import {
-    Text,
-    Container
-} from './index';
+import Container from './Container';
+import Text from './Text';
 import styles, { UNDERLAY_COLOR } from './styles';
 import type { Item } from '../../Types';
 

@@ -39,6 +39,5 @@ MiddlewareRegistry.register(store => next => action => {
 });
 
 window.addEventListener('beforeunload', () => {
-    // Stop the LogCollector
     throttledPersistState.flush();
 });
